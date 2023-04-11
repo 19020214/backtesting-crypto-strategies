@@ -61,13 +61,17 @@ def backtest(df: pd.DataFrame, tenkan_period: int, kijun_period: int):
                             (df["prev_tenkan_minus_kijun"] > 0) &
                             (df["close"] < df["senkou_span_a"]) &
                             (df["close"] < df["senkou_span_b"]) &
-                            (df["close"] < df["chikou_span"]), -1, 0))
+                            (df["close"] < df["chikou_span"]), -1, np.NaN))
 
-    signal_data = df[df["signal"] != 0].copy()
+    df = df[df["signal"] != 0].copy()
 
-    signal_data["pnl"] = signal_data["close"].pct_change() * signal_data["signal"].shift(1)
-    print(df)
-    return signal_data["pnl"].sum()
+    df["pnl"] = df["close"].pct_change() * df["signal"].shift(1)
+
+    df["cum_pnl"] = df["pnl"].cumsum()
+    df["max_cum_pnl"] = df["cum_pnl"].cummax()
+    df["drawdown"] = df["max_cum_pnl"] - df["cum_pnl"]
+
+    return df["pnl"].sum(), df["drawdown"].max()
 
 
 

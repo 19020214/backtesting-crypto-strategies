@@ -16,5 +16,9 @@ def backtest(df: pd.DataFrame, ma_period: int):
     df["close_change"] = df["close"].pct_change()
     df["signal_shift"] = df["signal"].shift(1)
     df["pnl"] = df["close"].pct_change() * df["signal"].shift(1)
-    print(df)
-    return df["pnl"].sum()
+
+    df["cum_pnl"] = df["pnl"].cumsum()
+    df["max_cum_pnl"] = df["cum_pnl"].cummax()
+    df["drawdown"] = df["max_cum_pnl"] - df["cum_pnl"]
+
+    return df["pnl"].sum(), df["drawdown"].max()
