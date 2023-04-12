@@ -1422,3 +1422,5 @@
 2023-04-12 16:23:33,156 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
 2023-04-12 16:23:33,256 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
 2023-04-12 16:23:51,174 INFO :: Retrieved 112308 BTCUSDT data from database in 0.1 seconds
+2023-04-12 16:35:28,995 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2023-04-12 16:35:29,095 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None

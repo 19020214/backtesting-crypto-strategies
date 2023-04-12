@@ -16,8 +16,6 @@ class BacktestResult:
                f"Rank = {self.rank} Crowding Distance = {self.crowding_distance}"
 
     def reset_results(self):
-        self.pnl = 0.0
-        self.max_dd = 0.0
         self.dominated_by = 0
         self.dominates.clear()
         self.rank = 0
