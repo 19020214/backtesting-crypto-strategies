@@ -119,6 +119,7 @@ if __name__ == "__main__":
             nsga2 = optimizer.Nsga2(exchange, symbol, strategy, tf, from_time, to_time, pop_size)
             current_population = nsga2.create_initial_population()
             evaluated_population = nsga2.evaluate_population(current_population)
+            evaluated_population = nsga2.crowding_distance(evaluated_population)
 
             i = 0
             population = dict()
