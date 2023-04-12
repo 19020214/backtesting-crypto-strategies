@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/backtestingCpp.dir/Utils.cpp.obj.d"
   "CMakeFiles/backtestingCpp.dir/main.cpp.obj"
   "CMakeFiles/backtestingCpp.dir/main.cpp.obj.d"
+  "CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj"
+  "CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj.d"
   "CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj"
   "CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj.d"
   "backtestingCpp.exe"

@@ -22,5 +22,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DH5_BUILT_AS_DYNAMIC_LIB @CMakeFiles/backtestingCpp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\backtestingCpp.dir\\strategies\\Sma.cpp.obj -c C:\\Users\\Admin123\\PycharmProjects\\backtesting-crypto-strategies\\backtestingCpp\\strategies\\Sma.cpp",
   "file": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Sma.cpp",
   "output": "CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj"
+},
+{
+  "directory": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DH5_BUILT_AS_DYNAMIC_LIB @CMakeFiles/backtestingCpp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\backtestingCpp.dir\\strategies\\Psar.cpp.obj -c C:\\Users\\Admin123\\PycharmProjects\\backtesting-crypto-strategies\\backtestingCpp\\strategies\\Psar.cpp",
+  "file": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Psar.cpp",
+  "output": "CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj"
 }
 ]

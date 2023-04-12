@@ -133,7 +133,7 @@ CMakeFiles/backtestingCpp.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/cstring \
  C:/msys64/mingw64/include/string.h \
  C:/msys64/mingw64/include/sec_api/string_s.h \
- C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\strategies/Sma.h \
+ C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\strategies/Psar.h \
  C:/msys64/mingw64/include/c++/12.2.0/vector \
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
