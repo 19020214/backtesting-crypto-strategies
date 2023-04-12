@@ -546,6 +546,30 @@ Database.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/Database.cpp.s
 .PHONY : Database.cpp.s
 
+Utils.obj: Utils.cpp.obj
+.PHONY : Utils.obj
+
+# target to build an object file
+Utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/Utils.cpp.obj
+.PHONY : Utils.cpp.obj
+
+Utils.i: Utils.cpp.i
+.PHONY : Utils.i
+
+# target to preprocess a source file
+Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/Utils.cpp.i
+.PHONY : Utils.cpp.i
+
+Utils.s: Utils.cpp.s
+.PHONY : Utils.s
+
+# target to generate assembly for a file
+Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/Utils.cpp.s
+.PHONY : Utils.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -569,6 +593,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+strategies/Sma.obj: strategies/Sma.cpp.obj
+.PHONY : strategies/Sma.obj
+
+# target to build an object file
+strategies/Sma.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
+.PHONY : strategies/Sma.cpp.obj
+
+strategies/Sma.i: strategies/Sma.cpp.i
+.PHONY : strategies/Sma.i
+
+# target to preprocess a source file
+strategies/Sma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.i
+.PHONY : strategies/Sma.cpp.i
+
+strategies/Sma.s: strategies/Sma.cpp.s
+.PHONY : strategies/Sma.s
+
+# target to generate assembly for a file
+strategies/Sma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.s
+.PHONY : strategies/Sma.cpp.s
 
 # Help Target
 help:
@@ -613,9 +661,15 @@ help:
 	@echo ... Database.obj
 	@echo ... Database.i
 	@echo ... Database.s
+	@echo ... Utils.obj
+	@echo ... Utils.i
+	@echo ... Utils.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... strategies/Sma.obj
+	@echo ... strategies/Sma.i
+	@echo ... strategies/Sma.s
 .PHONY : help
 
 

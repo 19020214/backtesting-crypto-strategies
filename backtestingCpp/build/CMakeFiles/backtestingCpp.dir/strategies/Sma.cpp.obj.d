@@ -1,6 +1,6 @@
-CMakeFiles/backtestingCpp.dir/Database.cpp.obj: \
- C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\Database.cpp \
- C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\Database.h \
+CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj: \
+ C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\strategies\Sma.cpp \
+ C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\strategies\Sma.h \
  C:/msys64/mingw64/include/c++/12.2.0/string \
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -88,6 +88,12 @@ CMakeFiles/backtestingCpp.dir/Database.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+ C:/msys64/mingw64/include/c++/12.2.0/vector \
+ C:/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+ C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+ C:/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+ C:/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
+ C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h \
  C:/PROGRA~1/HDF_GR~1/HDF5/114~1.0/include/hdf5.h \
  C:/PROGRA~1/HDF_GR~1/HDF5/114~1.0/include/H5public.h \
  C:/PROGRA~1/HDF_GR~1/HDF5/114~1.0/include/H5pubconf.h \
@@ -150,13 +156,6 @@ CMakeFiles/backtestingCpp.dir/Database.cpp.obj: \
  C:/PROGRA~1/HDF_GR~1/HDF5/114~1.0/include/H5FDsubfiling.h \
  C:/PROGRA~1/HDF_GR~1/HDF5/114~1.0/include/H5FDioc.h \
  C:/PROGRA~1/HDF_GR~1/HDF5/114~1.0/include/H5VLpassthru.h \
- C:/msys64/mingw64/include/c++/12.2.0/chrono \
- C:/msys64/mingw64/include/c++/12.2.0/bits/chrono.h \
- C:/msys64/mingw64/include/c++/12.2.0/ratio \
- C:/msys64/mingw64/include/c++/12.2.0/limits \
- C:/msys64/mingw64/include/c++/12.2.0/ctime \
- C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \
- C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
- C:/msys64/mingw64/include/_timeval.h \
- C:/msys64/mingw64/include/pthread_time.h \
- C:/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h
+ C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h \
+ C:/msys64/mingw64/include/c++/12.2.0/tuple \
+ C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h

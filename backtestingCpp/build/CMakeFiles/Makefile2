@@ -836,12 +836,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/backtestingCpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=1,2,3 "Built target backtestingCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target backtestingCpp"
 .PHONY : CMakeFiles/backtestingCpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/backtestingCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/backtestingCpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles 0
 .PHONY : CMakeFiles/backtestingCpp.dir/rule
