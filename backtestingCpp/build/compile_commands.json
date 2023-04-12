@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DH5_BUILT_AS_DYNAMIC_LIB @CMakeFiles/backtestingCpp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\backtestingCpp.dir\\main.cpp.obj -c C:\\Users\\Admin123\\PycharmProjects\\backtesting-crypto-strategies\\backtestingCpp\\main.cpp",
+  "file": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/main.cpp",
+  "output": "CMakeFiles/backtestingCpp.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DH5_BUILT_AS_DYNAMIC_LIB @CMakeFiles/backtestingCpp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\backtestingCpp.dir\\Database.cpp.obj -c C:\\Users\\Admin123\\PycharmProjects\\backtesting-crypto-strategies\\backtestingCpp\\Database.cpp",
+  "file": "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.cpp",
+  "output": "CMakeFiles/backtestingCpp.dir/Database.cpp.obj"
+}
+]
