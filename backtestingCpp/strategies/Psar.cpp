@@ -2,6 +2,7 @@
 #include "../Database.h"
 #include "../Utils.h"
 
+#define DLLEXPORT extern "C" __declspec(dllexport) // Windows only
 
 using namespace std;
 
@@ -134,3 +135,13 @@ void Psar::execute_backtest(double initial_acc, double acc_increment, double max
     }
 
 }
+
+
+DLLEXPORT Psar* Psar_new(char* exchange, char* symbol, char* timeframe, long long from_time, long long to_time) {
+    return new Psar(exchange, symbol, timeframe, from_time, to_time);
+}
+DLLEXPORT void Psar_execute_backtest(Psar* psar, double initial_acc, double acc_increment, double max_acc) {
+    return psar->execute_backtest(initial_acc, acc_increment, max_acc);
+}
+DLLEXPORT double Psar_get_pnl(Psar* psar) { return psar->pnl; }
+DLLEXPORT double Psar_get_max_dd(Psar* psar) { return psar->max_dd; }

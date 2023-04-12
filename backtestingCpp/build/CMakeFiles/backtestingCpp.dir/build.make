@@ -68,26 +68,11 @@ include CMakeFiles/backtestingCpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/backtestingCpp.dir/flags.make
 
-CMakeFiles/backtestingCpp.dir/main.cpp.obj: CMakeFiles/backtestingCpp.dir/flags.make
-CMakeFiles/backtestingCpp.dir/main.cpp.obj: CMakeFiles/backtestingCpp.dir/includes_CXX.rsp
-CMakeFiles/backtestingCpp.dir/main.cpp.obj: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/main.cpp
-CMakeFiles/backtestingCpp.dir/main.cpp.obj: CMakeFiles/backtestingCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/backtestingCpp.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtestingCpp.dir/main.cpp.obj -MF CMakeFiles\backtestingCpp.dir\main.cpp.obj.d -o CMakeFiles\backtestingCpp.dir\main.cpp.obj -c C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\main.cpp
-
-CMakeFiles/backtestingCpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/backtestingCpp.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\main.cpp > CMakeFiles\backtestingCpp.dir\main.cpp.i
-
-CMakeFiles/backtestingCpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/backtestingCpp.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\main.cpp -o CMakeFiles\backtestingCpp.dir\main.cpp.s
-
 CMakeFiles/backtestingCpp.dir/Database.cpp.obj: CMakeFiles/backtestingCpp.dir/flags.make
 CMakeFiles/backtestingCpp.dir/Database.cpp.obj: CMakeFiles/backtestingCpp.dir/includes_CXX.rsp
 CMakeFiles/backtestingCpp.dir/Database.cpp.obj: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.cpp
 CMakeFiles/backtestingCpp.dir/Database.cpp.obj: CMakeFiles/backtestingCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/backtestingCpp.dir/Database.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/backtestingCpp.dir/Database.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtestingCpp.dir/Database.cpp.obj -MF CMakeFiles\backtestingCpp.dir\Database.cpp.obj.d -o CMakeFiles\backtestingCpp.dir\Database.cpp.obj -c C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\Database.cpp
 
 CMakeFiles/backtestingCpp.dir/Database.cpp.i: cmake_force
@@ -102,7 +87,7 @@ CMakeFiles/backtestingCpp.dir/Utils.cpp.obj: CMakeFiles/backtestingCpp.dir/flags
 CMakeFiles/backtestingCpp.dir/Utils.cpp.obj: CMakeFiles/backtestingCpp.dir/includes_CXX.rsp
 CMakeFiles/backtestingCpp.dir/Utils.cpp.obj: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.cpp
 CMakeFiles/backtestingCpp.dir/Utils.cpp.obj: CMakeFiles/backtestingCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/backtestingCpp.dir/Utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/backtestingCpp.dir/Utils.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtestingCpp.dir/Utils.cpp.obj -MF CMakeFiles\backtestingCpp.dir\Utils.cpp.obj.d -o CMakeFiles\backtestingCpp.dir\Utils.cpp.obj -c C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\Utils.cpp
 
 CMakeFiles/backtestingCpp.dir/Utils.cpp.i: cmake_force
@@ -117,7 +102,7 @@ CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj: CMakeFiles/backtestingCpp.
 CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj: CMakeFiles/backtestingCpp.dir/includes_CXX.rsp
 CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Sma.cpp
 CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj: CMakeFiles/backtestingCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj -MF CMakeFiles\backtestingCpp.dir\strategies\Sma.cpp.obj.d -o CMakeFiles\backtestingCpp.dir\strategies\Sma.cpp.obj -c C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\strategies\Sma.cpp
 
 CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj: CMakeFiles/backtestingCpp
 CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj: CMakeFiles/backtestingCpp.dir/includes_CXX.rsp
 CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Psar.cpp
 CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj: CMakeFiles/backtestingCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj -MF CMakeFiles\backtestingCpp.dir\strategies\Psar.cpp.obj.d -o CMakeFiles\backtestingCpp.dir\strategies\Psar.cpp.obj -c C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\strategies\Psar.cpp
 
 CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.i: cmake_force
@@ -145,7 +130,6 @@ CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.s: cmake_force
 
 # Object files for target backtestingCpp
 backtestingCpp_OBJECTS = \
-"CMakeFiles/backtestingCpp.dir/main.cpp.obj" \
 "CMakeFiles/backtestingCpp.dir/Database.cpp.obj" \
 "CMakeFiles/backtestingCpp.dir/Utils.cpp.obj" \
 "CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj" \
@@ -154,21 +138,20 @@ backtestingCpp_OBJECTS = \
 # External object files for target backtestingCpp
 backtestingCpp_EXTERNAL_OBJECTS =
 
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/main.cpp.obj
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/Database.cpp.obj
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/Utils.cpp.obj
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/build.make
-backtestingCpp.exe: C:/Program\ Files/HDF_Group/HDF5/1.14.0/lib/hdf5.lib
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/linkLibs.rsp
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/objects1.rsp
-backtestingCpp.exe: CMakeFiles/backtestingCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable backtestingCpp.exe"
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/Database.cpp.obj
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/Utils.cpp.obj
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/build.make
+libbacktestingCpp.dll: C:/Program\ Files/HDF_Group/HDF5/1.14.0/lib/hdf5.lib
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/linkLibs.rsp
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/objects1.rsp
+libbacktestingCpp.dll: CMakeFiles/backtestingCpp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libbacktestingCpp.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\backtestingCpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/backtestingCpp.dir/build: backtestingCpp.exe
+CMakeFiles/backtestingCpp.dir/build: libbacktestingCpp.dll
 .PHONY : CMakeFiles/backtestingCpp.dir/build
 
 CMakeFiles/backtestingCpp.dir/clean:

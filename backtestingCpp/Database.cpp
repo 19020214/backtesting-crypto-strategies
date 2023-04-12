@@ -17,7 +17,11 @@ Database::Database(const string& file_name)
     h5_file = H5Fopen(FILE_NAME.c_str(), H5F_ACC_RDONLY, fapl);
 
     if (h5_file < 0) {
-        printf("Error while opening %s\n", FILE_NAME.c_str());
+        FILE_NAME = "data/" + file_name + ".h5";
+        h5_file = H5Fopen(FILE_NAME.c_str(), H5F_ACC_RDONLY, fapl);
+        if (h5_file < 0) {
+            printf("Error while opening %s\n", FILE_NAME.c_str());
+        }
     }
 }
 

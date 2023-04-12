@@ -4,7 +4,7 @@
 #include "../Database.h"
 #include "../Utils.h"
 
-
+#define DLLEXPORT extern "C" __declspec(dllexport) // Windows only
 
 using namespace std;
 
@@ -89,3 +89,13 @@ void Sma::execute_backtest(int slow_ma, int fast_ma)
         }
     }
 }
+
+
+DLLEXPORT Sma* Sma_new(char* exchange, char* symbol, char* timeframe, long long from_time, long long to_time) {
+    return new Sma(exchange, symbol, timeframe, from_time, to_time);
+}
+DLLEXPORT void Sma_execute_backtest(Sma* sma, int slow_ma, int fast_ma) {
+    return sma->execute_backtest(slow_ma, fast_ma);
+}
+DLLEXPORT double Sma_get_pnl(Sma* sma) { return sma->pnl; }
+DLLEXPORT double Sma_get_max_dd(Sma* sma) { return sma->max_dd; }

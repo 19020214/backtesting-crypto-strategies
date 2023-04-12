@@ -570,30 +570,6 @@ Utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/Utils.cpp.s
 .PHONY : Utils.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtestingCpp.dir\build.make CMakeFiles/backtestingCpp.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 strategies/Psar.obj: strategies/Psar.cpp.obj
 .PHONY : strategies/Psar.obj
 
@@ -688,9 +664,6 @@ help:
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... strategies/Psar.obj
 	@echo ... strategies/Psar.i
 	@echo ... strategies/Psar.s
