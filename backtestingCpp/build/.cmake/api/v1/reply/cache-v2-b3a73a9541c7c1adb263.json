@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build"
+			"value" : "c:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp"
+			"value" : "C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1791,7 +1791,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build"
+			"value" : "C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build"
 		},
 		{
 			"name" : "backtestingCpp_IS_TOP_LEVEL",
@@ -1827,7 +1827,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp"
+			"value" : "C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp"
 		}
 	],
 	"kind" : "cache",

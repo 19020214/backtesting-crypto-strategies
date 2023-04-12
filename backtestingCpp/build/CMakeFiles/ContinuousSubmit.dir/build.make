@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp
+CMAKE_SOURCE_DIR = C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build
+CMAKE_BINARY_DIR = C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build
 
 # Utility rule file for ContinuousSubmit.
 
@@ -81,6 +81,6 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 CMakeFiles/ContinuousSubmit.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build C:\Users\Admin123\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles\ContinuousSubmit.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build C:\Users\LENOVO\PycharmProjects\backtesting-crypto-strategies\backtestingCpp\build\CMakeFiles\ContinuousSubmit.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousSubmit.dir/depend
 

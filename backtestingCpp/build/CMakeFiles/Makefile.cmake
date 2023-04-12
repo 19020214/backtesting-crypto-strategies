@@ -47,7 +47,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/HDF_Group/HDF5/1.14.0/cmake/libaec-targets.cmake"
   "C:/Program Files/HDF_Group/HDF5/1.14.0/cmake/zlib-targets-release.cmake"
   "C:/Program Files/HDF_Group/HDF5/1.14.0/cmake/zlib-targets.cmake"
-  "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/CMakeLists.txt"
+  "C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/CMakeLists.txt"
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeRCCompiler.cmake"

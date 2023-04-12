@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp
-BuildDirectory: C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build
+SourceDirectory: C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp
+BuildDirectory: C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
