@@ -7,7 +7,9 @@ pd.set_option("display.max_rows", None)
 pd.set_option("display.width", 1000)
 
 
-def backtest(df: pd.DataFrame, tenkan_period: int, kijun_period: int):
+def backtest(df_original: pd.DataFrame, tenkan_period: int, kijun_period: int):
+
+    df = df_original.copy()
 
     # Tenkan Sen : Short-term signal line
 
@@ -72,13 +74,3 @@ def backtest(df: pd.DataFrame, tenkan_period: int, kijun_period: int):
     df["drawdown"] = df["max_cum_pnl"] - df["cum_pnl"]
 
     return df["pnl"].sum(), df["drawdown"].max()
-
-
-
-
-
-
-
-
-
-

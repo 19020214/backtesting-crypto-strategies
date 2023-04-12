@@ -3,8 +3,7 @@
 
 CMakeFiles/backtestingCpp.dir/Database.cpp.obj
  C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.cpp
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.cpp
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h
  C:/msys64/mingw64/include/c++/12.2.0/string
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -172,7 +171,6 @@ CMakeFiles/backtestingCpp.dir/Database.cpp.obj
 
 CMakeFiles/backtestingCpp.dir/Utils.cpp.obj
  C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.cpp
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.cpp
  C:/msys64/mingw64/include/c++/12.2.0/math.h
  C:/msys64/mingw64/include/c++/12.2.0/cmath
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
@@ -228,7 +226,7 @@ CMakeFiles/backtestingCpp.dir/Utils.cpp.obj
  C:/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
  C:/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
  C:/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h
  C:/msys64/mingw64/include/c++/12.2.0/string
  C:/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h
  C:/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h
@@ -292,8 +290,7 @@ CMakeFiles/backtestingCpp.dir/Utils.cpp.obj
 
 CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj
  C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Psar.cpp
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Psar.cpp
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Psar.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Psar.h
  C:/msys64/mingw64/include/c++/12.2.0/string
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -390,7 +387,7 @@ CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h
  C:/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/hdf5.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5public.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5pubconf.h
@@ -453,13 +450,12 @@ CMakeFiles/backtestingCpp.dir/strategies/Psar.cpp.obj
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5FDsubfiling.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5FDioc.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5VLpassthru.h
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h
  C:/msys64/mingw64/include/c++/12.2.0/tuple
  C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
 
 CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
  C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Sma.cpp
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Sma.cpp
  C:/msys64/mingw64/include/c++/12.2.0/numeric
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -480,7 +476,7 @@ CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
  C:/msys64/mingw64/include/c++/12.2.0/backward/binders.h
  C:/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h
  C:/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Sma.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/strategies/Sma.h
  C:/msys64/mingw64/include/c++/12.2.0/string
  C:/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h
  C:/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h
@@ -562,7 +558,7 @@ CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h
  C:/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Database.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/hdf5.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5public.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5pubconf.h
@@ -625,7 +621,7 @@ CMakeFiles/backtestingCpp.dir/strategies/Sma.cpp.obj
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5FDsubfiling.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5FDioc.h
  C:/Program Files/HDF_Group/HDF5/1.14.0/include/H5VLpassthru.h
- C:/Users/Admin123/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h
+ C:/Users/LENOVO/PycharmProjects/backtesting-crypto-strategies/backtestingCpp/Utils.h
  C:/msys64/mingw64/include/c++/12.2.0/tuple
  C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
 
