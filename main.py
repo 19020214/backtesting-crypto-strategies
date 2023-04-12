@@ -118,9 +118,18 @@ if __name__ == "__main__":
 
             nsga2 = optimizer.Nsga2(exchange, symbol, strategy, tf, from_time, to_time, pop_size)
             current_population = nsga2.create_initial_population()
+            evaluated_population = nsga2.evaluate_population(current_population)
 
-            for individual in current_population:
-                print(individual)
+            i = 0
+            population = dict()
+            for bt in evaluated_population:
+                population[i] = bt
+                i += 1
+
+            fronts = nsga2.non_dominated_sorting(population)
+
+            for front in fronts:
+                print(front)
 
 
 
